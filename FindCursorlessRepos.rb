@@ -4,7 +4,7 @@ require 'httparty'
 
 class FindCursorlessRepos
   attr_accessor :headers
-  @@GITHUB_TOKEN = 'token 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'.freeze
+  @@GITHUB_TOKEN = 'token nil'.freeze
   def initialize
     @headers = { 'Authorization' => @@GITHUB_TOKEN }    
   end
